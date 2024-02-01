@@ -141,6 +141,9 @@ def test_comment():
 def fibonacci(n):
     return n-1 + n-2
 
+def fiboEx():
+    print("fo")
+
 def main():
     try:
         github_token = os.getenv('MY_GITHUB_TOKEN')
