@@ -101,6 +101,9 @@ def post_comment_on_pr(pr: PullRequest, comment: str):
     pr.create_issue_comment(comment)
 
 
+def zozo():
+    return 5
+
 def main():
     try:
         github_token = os.getenv('MY_GITHUB_TOKEN')
