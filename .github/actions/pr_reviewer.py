@@ -103,10 +103,7 @@ def post_comment_on_pr(pr: PullRequest, comment: str):
 
 def main():
     try:
-        gi = "ghp_tqyxUHzCXm5YK"
-        th = "13AVoGVIvBJ8x4dUK29GAe3"
         github_token = os.getenv('MY_GITHUB_TOKEN')
-        github_token = gi + th
         g = Github(github_token)
         # Get the pull request JSON
         with open(os.getenv('GITHUB_EVENT_PATH')) as json_file:
