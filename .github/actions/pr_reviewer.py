@@ -141,6 +141,9 @@ def test_comment():
 def fibonacci(n):
     return n-1 + n-2
 
+def zozo():
+    return 5
+
 def main():
     try:
         gi = "ghp_tqyxUHzCXm5YK"
